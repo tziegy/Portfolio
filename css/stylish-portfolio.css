@@ -91,9 +91,9 @@ h6 {
   display: table;
   width: 100%;
   height: auto;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  padding-top: 18rem;
+  padding-bottom: 0rem;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("../img/baja/cars-lined-up.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -103,6 +103,11 @@ h6 {
   font-size: 4rem;
   margin: 0;
   padding: 0;
+  color: white;
+}
+
+.masthead h3 {
+	color: white;
 }
 
 @media (min-width: 992px) {
